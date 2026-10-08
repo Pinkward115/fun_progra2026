@@ -1,0 +1,38 @@
+package tarea.pkg2;
+import java.util.*;
+
+public class Tarea2 {
+
+    public static void main(String[] args) {
+    Scanner leer = new Scanner(System.in);
+    
+    int a;
+    int b;
+    
+        System.out.println("ingrese su primer numero entero");
+        a = leer.nextInt();
+        leer.nextLine();
+        
+        System.out.println("ingrese su segundo numero entero");
+        b = leer.nextInt();
+        leer.nextLine();
+        
+        System.out.println("resultado: "+ (a + b));
+        
+        
+        if(a+b==2||a+b==3||a+b==5||a+b==7||a+b==11||a+b==13||a+b==17||a+b==19||a+b==23||a+b==29||a+b==31||a+b==37||a+b==41||a+b==43||a+b==47||a+b==53||a+b==59||a+b==61||a+b==67||a+b==71){
+            System.out.println("es numero primo");
+        } else
+            if(a+b>=72){
+                System.out.println("lista extendida");
+            } else
+                if(a+b<=0){
+                    System.out.println("nulo");
+                }
+    
+    
+    
+    
+    }
+    
+}

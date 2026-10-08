@@ -1,0 +1,58 @@
+package tarea.pkg3;
+import java.util.*;
+
+public class Tarea3 {
+
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int a;
+        
+        System.out.println("ingrese un numero de 1 a 365");
+        a = leer.nextInt();
+        leer.nextLine();
+        
+        if(a>=1 && a<=31){
+            System.out.println("enero");
+        } else
+            if(a>=32 && a<59){
+                System.out.println("febrero");
+            } else
+                if(a>=60 && a<=90){
+                    System.out.println("marzo");
+                } else
+                    if(a>=91 && a<=120){
+                        System.out.println("abril");
+                    } else
+                        if(a>=121 && a<=151){
+                            System.out.println("mayo");
+                        } else
+                            if(a>=152 && a<=181){
+                                System.out.println("junio");
+                            } else
+                                if(a>=182 && a<=212){
+                                    System.out.println("julio");
+                                }else
+                                    if(a>=213 && a<=243){
+                                        System.out.println("agosto");
+                                    } else
+                                        if(a>=244 && a<=273){
+                                            System.out.println("septiembre");
+                                        } else
+                                            if(a>=274 && a<=304){
+                                                System.out.println("octubre");
+                                            } else
+                                                if(a>=305 && a<=334){
+                                                    System.out.println("noviembre");
+                                                } else
+                                                    if(a>=335 && a<=365){
+                                                        System.out.println("diciembre");
+                                                    } else {
+                                                        System.out.println("error");
+                                                    }
+        
+        
+        
+        
+}
+    
+}
